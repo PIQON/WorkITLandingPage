@@ -1,0 +1,84 @@
+/*
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #d6e2f0;
+}
+
+.wrapper {
+  max-width: 22rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.qr-code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.qr-code-image {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.qr-code-title {
+  color: #090909;
+  line-height: 1.3;
+  letter-spacing: 0.1px;
+}
+
+.qr-code-description {
+  color: #565c67;
+  line-height: 1.5;
+}
+
+/* Visually hidden class */
+
+.visuallyhidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* ukrycie treści za pomocą clip */
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+  white-space: nowrap;
+}
