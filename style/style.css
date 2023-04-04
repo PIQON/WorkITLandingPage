@@ -15,8 +15,8 @@
 }
 
 body {
-  position: relative;
   overflow-x: hidden;
+  position: relative;
   font-family: "Manrope", sans-serif;
 }
 
@@ -36,8 +36,8 @@ body {
 }
 
 .heading__primary {
-  text-align: center;
   font-size: 2.986rem;
+  text-align: center;
   color: var(--color-neutral-400);
 }
 
@@ -56,12 +56,11 @@ body {
 }
 
 .heading__third {
-  color: var(--color-neutral-400);
   font-size: 2.074rem;
+  color: var(--color-neutral-400);
 }
 
 .description {
-  font-size: 1rem;
   color: var(--color-primary-200);
   line-height: 1.5;
 }
@@ -79,7 +78,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 0;
+  padding: 2.986rem 0;
 }
 
 .hero {
@@ -92,16 +91,16 @@ body {
 .hero__image {
   position: relative;
   width: 100%;
-  height: 150px;
+  height: 9.375rem;
 }
 
 .image {
   position: absolute;
   z-index: 2;
+  width: 60%;
   top: 150%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60%;
 }
 
 .header::after,
@@ -109,9 +108,9 @@ body {
   content: "";
   position: absolute;
   z-index: 1;
-  bottom: -50px;
+  bottom: -3.125rem;
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
   border-radius: 0 0 150% 150%;
   background-color: var(--color-primary-400);
 }
@@ -127,8 +126,8 @@ body {
 }
 
 .decorative--right {
-  left: 100%;
   top: 70%;
+  left: 100%;
 }
 
 .section-offerts {
@@ -175,8 +174,8 @@ body {
   padding: 20rem 0;
 }
 
-.founder__image {
-  max-width: 370px;
+.founder {
+  max-width: 23.125rem;
   position: absolute;
   top: 50%;
   left: 20%;
@@ -288,15 +287,15 @@ body {
     aspect-ratio: 1/1;
   }
 
-  .founder__image {
-    max-width: 280px;
+  .founder {
+    max-width: 17.5rem;
     left: 30%;
   }
 
   .contact__information {
     left: 60%;
     top: 75%;
-    min-width: 400px;
+    min-width: 25rem;
   }
 }
 
@@ -324,19 +323,19 @@ body {
     gap: 1.44rem;
   }
 
-  .founder__image {
+  .founder {
     top: 30%;
     left: 50%;
   }
 
   .contact__information {
-    align-items: center;
-    min-width: auto;
-    left: 0;
     top: 45%;
-    width: 100%;
+    left: 0;
     transform: translate(0);
+    width: 100%;
+    align-items: center;
     text-align: center;
+    min-width: auto;
   }
 
   .footer {
