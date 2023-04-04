@@ -6,10 +6,10 @@
      QR Code Component based on frontend mentor design..
     <br />
     <br />
-    <a href="https://piqon.github.io/QRCode/">View a project demo</a>
+    <a href="https://work-it-landing-page.vercel.app/">View a project demo</a>
   </p>
 
-![My Image](images/preview.jpg)
+![My Image](images/preview.png)
 
 </div>
 
