@@ -9,7 +9,7 @@
     <a href="https://piqon.github.io/QRCode/">View a project demo</a>
   </p>
 
-![My Image](images/desktop-preview.jpg)
+![My Image](images/preview.jpg)
 
 </div>
 
