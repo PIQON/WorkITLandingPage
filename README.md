@@ -40,7 +40,7 @@
 
 ## About The Project
 
-Scan the QR code and see where it will take you.
+The project shows a simple landing page without any functionalities.. :)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
