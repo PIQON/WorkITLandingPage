@@ -1,9 +1,9 @@
 <p id="readme-top"></p>
 <div align="center">
-  <h3 align="center">QR Code Component</h3>
+  <h3 align="center">WorkIT Landing Page</h3>
 
   <p align="center">
-     QR Code Component based on frontend mentor design..
+     WorkIT Landing Page based on frontend mentor design..
     <br />
     <br />
     <a href="https://work-it-landing-page.vercel.app/">View a project demo</a>
